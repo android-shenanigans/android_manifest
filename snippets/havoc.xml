@@ -23,6 +23,10 @@
           fetch="https://gitlab.com/Havoc-GApps"
           revision="ten" />
 
+  <remote name="statix"
+          fetch="https://gitlab.com/StatiXOS"
+          revision="10" />
+  
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
   <project path="bionic" name="android_bionic" remote="havoc" />
