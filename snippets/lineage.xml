@@ -4,6 +4,9 @@
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            revision="lineage-17.1" />
+   <remote name="statix"
+          fetch="https://gitlab.com/StatiXOS"
+          revision="10" />
 
   <!-- Device -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
