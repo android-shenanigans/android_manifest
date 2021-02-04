@@ -5,7 +5,7 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-17.1" />
    <remote name="statix"
-          fetch="https://gitlab.com/StatiXOS"
+          fetch="https://github.com/StatiXOS"
           revision="10" />
 
   <!-- Device -->
