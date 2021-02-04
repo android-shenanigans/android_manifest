@@ -20,7 +20,7 @@
           revision="ten" />
 
   <remote name="havoc-gapps"
-          fetch="https://gitlab.com/Havoc-GApps"
+          fetch="https://github.com/Havoc-GApps"
           revision="ten" />
 
   <remote name="statix"
