@@ -23,9 +23,20 @@
           fetch="https://gitlab.com/Havoc-GApps"
           revision="ten" />
 
-  <remote name="statix"
-          fetch="https://github.com/StatiXOS"
-          revision="10" />
+  <remote name="hk1271"
+          fetch="https://github.com/hk1271"
+          revision="havoc" />
+  <remote name="bliss"
+          fetch="https://github.com/BlissRoms-Devices"
+          revision="q" />
+  
+  <!-- angler stuff -->
+
+    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="havoc" />
+    <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="bliss" />
+    <project path="vendor/huawei" name="android_vendor_huawei" remote="bliss" />
+
+  
   
   <!-- General -->
   <project path="art" name="android_art" remote="havoc" />
