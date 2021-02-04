@@ -31,14 +31,18 @@
           fetch="https://github.com/hk1271"
           revision="havoc" />
   <remote name="bliss"
+          fetch="https://github.com/BlissRoms"
+          revision="q" />
+
+  <remote name="blissdev"
           fetch="https://github.com/BlissRoms-Devices"
           revision="q" />
   
   <!-- angler stuff -->
 
     <project path="device/huawei/angler" name="android_device_huawei_angler" remote="hk1271" />
-    <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="bliss" />
-    <project path="vendor/huawei" name="android_vendor_huawei" remote="bliss" />
+    <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="blissdev" />
+    <project path="vendor/huawei" name="android_vendor_huawei" remote="blissdev" />
 
   
   
