@@ -42,7 +42,7 @@
   
   <!-- angler stuff -->
 
-    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="hk1271" />
+    <project path="device/huawei/angler" name="android_device_huawei_angler" remote="android-shenanigans-havoc" />
     <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="blissdev" />
     <project path="vendor/huawei" name="android_vendor_huawei" remote="blissdev" />
 
