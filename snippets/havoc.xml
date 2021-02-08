@@ -7,9 +7,13 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-    <remote name="purringChaos"
-          fetch="https://github.com/purringChaos"
+    <remote name="android-shenanigans-ten"
+          fetch="https://github.com/android-shenanigans"
           revision="ten" />
+
+    <remote name="android-shenanigans-havoc"
+          fetch="https://github.com/android-shenanigans"
+          revision="havoc" />
 
   <remote name="havoc"
           fetch="https://github.com/Havoc-OS"
@@ -27,9 +31,7 @@
           fetch="https://github.com/StatiXOS"
           revision="10" />
   
-  <remote name="hk1271"
-          fetch="https://github.com/hk1271"
-          revision="havoc" />
+
   <remote name="bliss"
           fetch="https://github.com/BlissRoms"
           revision="q" />
@@ -89,7 +91,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="purringChaos" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="android-shenanigans-ten" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" />
